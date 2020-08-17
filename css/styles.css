@@ -15,8 +15,9 @@ body.no-scroll {
     padding-right: 15px;
 }
 .contenedor{
-    max-width: 1125px;
+    max-width: 960px;
     margin: 0 auto;
+    width: 100%;
     position: relative;
 }
 h1 {
@@ -28,6 +29,10 @@ h1,h2,h3,h4,h5,h6,p{
 a {
     text-decoration: none;
     color: black; 
+}
+li{
+    list-style: none;
+    
 }
 .slide-btn{
     text-decoration: none;
@@ -787,4 +792,113 @@ a {
     max-width: 80%;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+
+
+/*revision estilos <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.rev{
+    background: #f5f5f5;
+    padding: 8rem 15px;
+}
+.rev-box{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.rev-title h2{
+    font-size: calc(3.3rem + 1vw);
+    line-height: 1.3;
+    font-weight: 800;
+    color: #ffe152 ;
+}
+.rev-divider{
+    width: 12%;
+    margin: 1.5rem 0 3rem;
+    left: -7%;
+    background  :#ffe152;
+    height: 8px;
+    position: relative;
+}
+.rev-form p {
+    margin-bottom: 1rem;
+    color: #292b2c;
+}
+.form-box-in li {
+    margin-top: 8px;
+}
+.form-box-in label{
+    color: #292b2c;
+    display: inline-block;
+    line-height: 1.3;
+    clear: both;
+    margin-bottom: 8px;
+    font-weight: bolder;
+    line-height: 24px;
+}
+.revInput-box{
+    margin-top: 8px;
+}
+.revInput-box input, textarea{
+    width: 100%;
+    border: 2px solid #fff;
+    line-height: 24px;
+    padding:0.4rem 0.6rem !important;;
+}
+input[type=text]{
+    overflow: visible;
+    outline-style: none;
+}
+input[type=text]:focus {
+    border: 2px solid #ffe152;
+
+  }
+textarea{
+    resize: none;
+    outline-style: none;
+}
+textarea:focus {
+    border: 2px solid #ffe152;
+    box-sizing: border-box!important;
+}
+.form-box-in span{
+    margin-left: 4px;
+    color: #ffe152;
+}
+.form-submit{
+    padding: 16px 0 10px;
+    margin: 16px 0 0;
+    clear: both;
+    width: 100%;    
+}
+.form-submit-buttom{
+    text-decoration: none;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    font-weight: 700;
+    color: #3c3c3b;
+    padding: 0 1rem 0.2rem;
+    background: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    z-index: 1;
+}
+.form-submit-buttom:after{
+
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    background: #c8c8c8;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+}
+.form-submit-buttom:hover:after{
+    width: 100%;
+    background: #3c3c3b;
+}
+.form-submit-buttom:hover{
+    color: #ffe152;
 }
