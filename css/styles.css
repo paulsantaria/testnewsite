@@ -908,6 +908,7 @@ textarea:focus {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
     z-index: 1;
+    line-height: 1.9;
 }
 .form-submit-buttom:after{
 
@@ -983,4 +984,15 @@ textarea:focus {
 .sayHi-form .form-submit{
     display: flex;
     justify-content: flex-end;
+}
+
+/*apply box <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.apply{
+    background: #f5f5f5;
+    padding: 8rem 15px;
+}
+.apply-box{
+    max-width: 800px;
+    margin: 0 auto;
 }
