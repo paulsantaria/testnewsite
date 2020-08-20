@@ -579,6 +579,18 @@ li{
     line-height: 2.5rem !important;
     
 }
+.doTag{
+    color: inherit;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 700;
+}
+.doTag:after{
+    display: none;
+}
+.doTag:hover{
+    color: #3c3c3b!important;
+}
 /*fin estilo de pagina do <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 /*inicio estilo de pagina cultura <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
