@@ -70,29 +70,15 @@ li{
     z-index: -1;
 }
 
-/*caja header*/
-.headerscrolled .name{
-    color: #3c3c3b;
-    position: absolute;
-    top: 10px;
-    left: -100px;
-    
-}
-.headerscrolled{
-    transform: rotate(-90deg);
-    transition: .3s ease;
-}
-.headerscrolled2 span{
-    background: #3c3c3b !important;
-}
+/*caja header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .header{
     width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
     z-index: 3;
-    padding: 1.5rem 2.5rem;
-
+    padding: 2rem 2.5rem;
+    transition: 0.6s;
 }
 .header-box{
     width: inherit;
@@ -100,16 +86,25 @@ li{
     justify-content: space-between;
     align-items: center;
 }
-.logo{
-    color: white;
+.fuckYou{
+    background: #ffe152;
+    padding: .5rem 2.5rem;
+}
+/*logo animated*/
+.logoAnchor{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logoAnchor svg{
+    height: 25px;
 }
 
-.name{
-    color: white;
-    font-family: 'Bebas neue';
-    font-size: 30px;
+#logo{
+    fill: white;
 }
-
+/*end*/
 .menu-icon{
     height: 30px;
     width: 30px;
@@ -324,12 +319,39 @@ li{
     line-height: 1.1;
     color: white!important;
 }
+/*pics caja <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.pics{
+    padding: 12rem 0;
+    background: #f5f5f5;
+}
+.pics-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pics-box  .pic1{
+    height: 200px;
+    width: 200px;
+    background: url(../img/somos-big.jpg);
+    background-size: 100%;
 
+}
+
+.pics-box .pic1:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: #ffe152;
+    background-blend-mode: multiply;
+}
+.pics img{
+    width: 200px;
+}
+
+/*pics ends <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 /*caja footer*/
 
 .footer{
-    height: 90vh;
+    height: 85vh;
     background:#3c3c3b ;
     display: flex;
     align-items: center;
