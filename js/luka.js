@@ -25,6 +25,7 @@ $toggleM.addEventListener('click', noScroll)
 $toggleM.addEventListener('click', menu);
 $toggleM.addEventListener('click', toAction);
 
+/*header scroll animation */
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle("fuckYou",window.scrollY >0)
