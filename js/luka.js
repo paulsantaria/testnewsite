@@ -4,6 +4,7 @@ var $toggleM = document.getElementById('escucha')
 var $action = document.getElementById('action')
 var $noScroll = document.getElementById('body')
 var headerBox = document.querySelector("header")
+var header = document.getElementById('header') 
 
 function ico(){
     $toggleM.classList.toggle('icoanimate')
@@ -14,6 +15,7 @@ function noScroll(){
 function menu(){
     $burger.classList.toggle('open');
     headerBox.classList.remove('fuckYou');
+    header.classList.toggle('logoOff')
     
 };
 function toAction(){

@@ -95,6 +95,7 @@ li{
     position: relative;
     display: flex;
     justify-content: space-between;
+    transition: 1s;
 
 }
 .logoAnchor svg{
@@ -103,7 +104,14 @@ li{
 
 #logo{
     fill: white;
+    transition: .6s;
 }
+.logoOff #logo {
+    fill: #3c3c3b;
+    
+}
+
+
 /*end*/
 .menu-icon{
     height: 30px;
@@ -1068,6 +1076,7 @@ textarea:focus {
 @media screen and (max-width:800px){
     .action{
         width: 0%;
+        height: 0%;
     }
     .menu {
         width: 100%;
@@ -1099,6 +1108,8 @@ textarea:focus {
     .footer-box{
         max-width: 540px;
     }
+    /*hacemos querys*/
+
 
 }
 @media screen and (max-width:767px){
