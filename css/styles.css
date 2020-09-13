@@ -228,7 +228,7 @@ li{
 }
 .menu-box-in a {
     font-family: 'Open Sans', sans-serif;
-    font-size: calc(1rem + 0.75vw + 0.75vh);
+    font-size: calc(1rem + 0.6vw + 0.6vh);
     color: #3c3c3b;
     font-weight: 700;
     text-decoration: none;
@@ -329,21 +329,53 @@ li{
     flex-wrap: wrap;
     justify-content: center;
 }
-.pics-box  .pic1{
+.pics-box  div{
     height: 200px;
     width: 200px;
-    background: url(../img/somos-big.jpg);
     background-size: 100%;
-
+    
+}
+.pic1{
+    background: url(../img/somos-big.jpg);
+}
+.pic2{
+    background: url(../img/somos-big.jpg);
+}
+.pic3{
+    background: url(../img/somos-big.jpg);
+}
+.pic4{
+    background: url(../img/somos-big.jpg);
+}
+.pic5{
+    background: url(../img/somos-big.jpg);
+}
+.pic6{
+    background: url(../img/somos-big.jpg);
+}
+.pic7{
+    background: url(../img/somos-big.jpg);
+}
+.pic8{
+    background: url(../img/somos-big.jpg);
+}
+.pic9{
+    background: url(../img/somos-big.jpg);
+}
+.pic10{
+    background: url(../img/somos-big.jpg);
+}
+.pic11{
+    background: url(../img/somos-big.jpg);
+}
+.pic12{
+    background: url(../img/somos-big.jpg);
 }
 
-.pics-box .pic1:hover{
+.pics-box div:hover{
     transition: all 0.5s ease-in-out;
     background-color: #ffe152;
     background-blend-mode: multiply;
-}
-.pics img{
-    width: 200px;
 }
 
 /*pics ends <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -1029,4 +1061,64 @@ textarea:focus {
 .apply-box{
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* responsive index <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+@media screen and (max-width:800px){
+    .action{
+        width: 0%;
+    }
+    .menu {
+        width: 100%;
+    }
+    .openAction{
+        left: -100%!important;
+    }
+    .hey{
+        font-size: 5rem;
+    }
+    .text p{
+        font-size: 30px;
+    }
+    /*#logo{
+        fill: #3c3c3b;
+    }
+    */
+    .menu{
+        justify-content: start;
+    }
+    .menu-box{
+        padding-left: 24px;
+    }
+    .menu-contenedor{
+        padding-left: 1.8rem;
+    }
+
+    /*footer*/
+    .footer-box{
+        max-width: 540px;
+    }
+
+}
+@media screen and (max-width:767px){
+    .text p {
+        font-size: 27px ;
+    }
+    .title-box{
+        width: 80%;
+    }
+    .divider{
+        left: -10%;
+    }
+    .header, .fuckYou{
+        padding: 1rem 1.8rem;
+    }
+    .pics-box div {
+        width: 300px;
+        height: 300px;
+    }
+    .footer-box{
+        padding: 0 2rem;
+    }
 }
