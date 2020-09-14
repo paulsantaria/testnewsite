@@ -1109,7 +1109,44 @@ textarea:focus {
         max-width: 540px;
     }
     /*hacemos querys*/
-
+    .do{
+        padding: 8rem 1rem;
+        overflow: hidden;
+    }
+    .do-box{
+        max-width: 540px;
+    }
+    .do-box-in{
+        display: block;
+    }
+    .do-text{
+        width: 100%;
+    }
+    .do-title{
+        font-size: calc(2.3rem + 1vw);
+    }
+    .do-subtitle{
+        font-size: 1.5rem!important;
+        line-height: 1.1!important;
+        font-weight: 700!important;
+    }
+    .do-text p {
+        font-size: 19px;
+        line-height: 1.8rem ;
+    }
+    .upfloat{
+        left: 75vw;
+        top: 70px;    
+    }
+    .upfloat img{
+        height: 180px;
+    }
+    .leftfloat{
+        display: none;
+    }
+    .stickyNav{
+        display: none;
+    }
 
 }
 @media screen and (max-width:767px){
@@ -1131,5 +1168,26 @@ textarea:focus {
     }
     .footer-box{
         padding: 0 2rem;
+    }
+    /*hacemos querys*/
+    .do-box{
+        padding: 0 15px;
+    }
+    .do-title{
+        font-size: 38px;
+    }
+    .do-divider{
+        width: 11%;
+    }
+    .do-subtitle{
+        font-size: 21px!important;
+        line-height: 1.27!important;
+    }
+    .do-text p{
+        line-height: 1.7rem;
+    }
+    .upfloat{
+        left: 55vw;
+        top: 45px;
     }
 }
