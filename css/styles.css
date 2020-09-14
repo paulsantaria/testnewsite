@@ -1147,6 +1147,74 @@ textarea:focus {
     .stickyNav{
         display: none;
     }
+    /*cultura querys*/
+    .cultura{
+        overflow: hidden;
+    }
+    .cultura-title{
+        font-size: calc(2rem + 1vw)!important;
+    }
+    .culturafloat{
+        right: 0;
+        top: -15px;
+    }
+    .culturafloat img{
+        width: 225px;
+    }
+    .cultura-title-box{
+        width: 70%;
+    }
+    .cultura-title-box h2{
+        width: 74%;
+    }
+    .cultura-text{
+        padding: 0;
+    }
+    .cultura-text-box{
+        width: 90%;
+    }
+    .cultura-text-box h4{
+        font-size: 19px;
+    }
+    .cultura-text-box p {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    /*unete query*/
+    .unete-top{
+        padding: 0;
+    }
+    .unete-title-box h2{
+        font-size: calc(2.5rem + 1vw);
+    }
+    .unetefloat-top{
+        left: 0;
+        top: 60px;
+
+    }
+    .unetefloat-top img{
+        width: 225px;
+    }
+    .unetefloat-left{
+        display: none;
+    }
+    .unete-text-box{
+        max-width: 100%;
+        padding: 0;
+    }
+    /*hey query*/
+    .sayHi{
+        padding-top:5.5rem ;
+    }
+    .sayHi-box{
+        max-width: 540px;
+    }
+    .sayHi-title h2{
+        font-size: calc(2.5rem + 1vw);
+    }
+    .sayHi-box-in{
+        padding: 0 30px;
+    }
 
 }
 @media screen and (max-width:767px){
@@ -1189,5 +1257,39 @@ textarea:focus {
     .upfloat{
         left: 55vw;
         top: 45px;
+    }
+    /*cultura querys*/
+    .culturafloat{
+        right: -15%;
+        top: 50px;
+    }
+    .culturafloat img{
+        width: 200px;
+    }
+    .cultura-top{
+        padding-top:7rem ;
+    }
+    .cultura-title-box{
+        width: 83%;
+    }
+    .cultura-title-box h2 {
+        width: 100%;
+    }
+    .cultura-text-box{
+        padding: 0 3%;
+    }
+}
+
+@media screen and (max-width:500px){
+    /*hey querys*/
+    .sayHi-title h2{
+        font-size: 37px;
+    }
+    .sayHi-form li{
+        display: block;
+    }
+    .sayHi-form-li label {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
