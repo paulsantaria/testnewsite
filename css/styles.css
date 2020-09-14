@@ -1215,6 +1215,20 @@ textarea:focus {
     .sayHi-box-in{
         padding: 0 30px;
     }
+    /*revision querys*/
+    .rev{
+        padding-top: 6rem;
+    }
+    .rev-box{
+        max-width: 540px;
+    }
+    .rev-title h2{
+        font-size: calc(2.2rem + 1vw);
+    }
+    /*postula query*/
+    .apply-box{
+        max-width: 540px;
+    }
 
 }
 @media screen and (max-width:767px){
@@ -1278,6 +1292,19 @@ textarea:focus {
     .cultura-text-box{
         padding: 0 3%;
     }
+     /*revisin*/
+     .rev-box {
+        padding: 0 25px;
+    }
+    .rev-title h2{
+        font-size: calc(1.8rem + 1vw);
+    }
+    .apply-box{
+        padding: 0 25px;
+    }
+    .apply{
+        padding-top: 6rem;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -1292,4 +1319,9 @@ textarea:focus {
         width: 100%;
         margin-bottom: 10px;
     }
+    /*revision query*/
+    .rev-form-box p{
+        font-size: 14px;
+    }
+
 }
