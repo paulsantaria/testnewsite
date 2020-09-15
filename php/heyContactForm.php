@@ -10,5 +10,5 @@ if(isset($_POST['submit'])){
     $mailTo = "hey@lukaymedia.com";
 
     mail($mailTo, $name, $lastname, $message);
-    header("location: index.php?mailsend");
+    header("Location: index.php?mailsend");
 }
