@@ -22,43 +22,43 @@
                     <div class="sayHi-form-box">
                         <p></p>
                         <div class="form-box">
-                            <form action="form">
+                            <form action="php/heyContactForm.php" method="post">
                                 <div class="form-box-in sayHi-form">
                                     <ul>
                                         <li class="sayHi-form-li">
                                             <label for="">Cual es tu nombre? <span>*</span></label>
                                             <div class="sayHiInput-box">
-                                                <input type="text">
+                                                <input type="text" name="name">
                                             </div>
                                         </li>
                                         <li class="sayHi-form-li">
                                             <label for="">Cual es tu apellido? <span>*</span></label>
                                             <div class="sayHiInput-box">
-                                                <input type="text">
+                                                <input type="text" name="lastname">
                                             </div>
                                         </li>
 
                                         <li class="sayHi-form-li">
                                             <label for="">Cual es el nombre de tu compañia? <span>*</span></label>
                                             <div class="sayHiInput-box">
-                                                <input type="text">
+                                                <input type="text" name="companyname">
                                             </div>
                                         </li>
                                         <li class="sayHi-form-li">
                                             <label for="">Cual es tu email? <span>*</span></label>
                                             <div class="sayHiInput-box">
-                                                <input type="text">
+                                                <input type="text" name="email">
                                             </div>
                                         </li>
 
                                         <li class="sayHi-form-li">
                                             <label for="">Dejanos un mensaje breve (todo consejo relacionado sera bien recibido)</label>
                                             <div class="sayHiInput-box">
-                                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                                <textarea name="message" id="" cols="30" rows="10"></textarea>
                                             </div>
                                         </li>
                                         <div class="form-submit">
-                                            <button class="form-submit-buttom">Enviar mensaje</button>
+                                            <button type="submit" name="submit" class="form-submit-buttom">Enviar mensaje</button>
                                         </div>
                                     </ul>
                                 </div>
