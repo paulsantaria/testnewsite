@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
 
     $mailTo = "hey@lukaymedia.com";
     $headers = "From: ".$email;
-    $txt = "Haz recibido un mensaje de ".$name " ".$lastname ".\n\n".$message".\n\n"."compañia ".$companyname;
+    $txt = "Haz recibido un mensaje de ".$name." ".$lastname.".\n\n".$message.".\n\n".$companyname;
 
 
 
