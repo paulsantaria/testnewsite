@@ -10,9 +10,9 @@ if(isset($_POST['submit'])){
     $mailTo = "hey@lukaymedia.com";
     $headers = "From: ".$email;
     $txt = "Haz recibido un mensaje de ".$name." ".$lastname.".\n\n".$message.".\n\n".$companyname;
+    $asunto = "Mensaje de ".$companyname;
 
 
-
-    mail($mailTo, $companyname, $txt, $headers);
-    header("Location: index.php?mailsend");
+    mail($mailTo, $asunto, $txt, $headers);
+    header("Location: ../hey.html?mailsend");
 }

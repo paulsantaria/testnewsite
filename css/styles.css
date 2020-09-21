@@ -341,7 +341,14 @@ li{
     height: 200px;
     width: 200px;
     background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.pics-box div p{
+    font-size: 1rem;
+    font-weight: 700;
 }
 .pic1{
     background: url(../img/somos-big.jpg);
